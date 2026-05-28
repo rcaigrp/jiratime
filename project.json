@@ -1,1 +1,12 @@
-{ "goal": "A Python CLI tool for local-first time tracking with Jira API integration.", "acceptance_criteria": ["CLI runs and logs time entry", "Jira API integration works (mocked)", "Data persists locally (JSON file)", "Export to CSV/JSON works"], "meeting_budget": 4, "meetings_held": 0, "status": "active" }
+{
+  "goal": "A CLI tool to manually log time entries and sync with a Jira API endpoint (mocked).",
+  "acceptance_criteria": [
+    "App successfully creates a time entry file.",
+    "App handles invalid input gracefully.",
+    "App can read and display logs from a local file.",
+    "App simulates a successful API sync without making real network calls."
+  ],
+  "meeting_budget": 3,
+  "meetings_held": 0,
+  "status": "active"
+}

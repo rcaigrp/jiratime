@@ -1,29 +1,17 @@
-# JiraTime CLI
+# JiraTime
 
-## What it does
-A command-line tool to track work time and sync with Jira API locally.
+A command-line tool to manually track time entries and manage local logs.
 
 ## Installation
 
-No dependencies required for installation. Just ensure you have Python 3.11+.
+No external dependencies required beyond Python 3.11.
 
 ## Usage
 
-Add a time entry:
-```bash
-python main.py add --project TEST --hours 1.5
-```
-
-Sync to Jira:
-```bash
-python main.py sync --token $JIRA_TOKEN
-```
-
-Export logs:
-```bash
-python main.py export --format csv
-```
+1. List logs: `python main.py logs`
+2. Create entry: `python main.py add --issue TEST-1 --minutes 60`
+3. Sync to Jira (mocked): `python main.py sync`
 
 ## Configuration
 
-Requires a `JIRA_TOKEN` environment variable for API authentication.
+None. Uses local file storage.
