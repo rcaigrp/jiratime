@@ -1,0 +1,1 @@
+{ "goal": "A Python CLI tool for local-first time tracking with Jira API integration.", "acceptance_criteria": ["CLI runs and logs time entry", "Jira API integration works (mocked)", "Data persists locally (JSON file)", "Export to CSV/JSON works"], "meeting_budget": 4, "meetings_held": 0, "status": "active" }
